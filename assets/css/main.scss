@@ -1,1 +1,17 @@
 @import 'reset';
+@import 'header';
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+$text-font-primary: #2d3436;
+
+.container{
+  max-width: map-get($container-max-widths, "xl");
+  margin: 0 auto;
+}
