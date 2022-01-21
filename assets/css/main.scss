@@ -1,6 +1,5 @@
-@import 'reset';
-@import 'header';
-
+//Variáveis
+$text-font-primary: #2d3436;
 $container-max-widths: (
   sm: 540px,
   md: 720px,
@@ -9,7 +8,14 @@ $container-max-widths: (
   xxl: 1320px
 );
 
-$text-font-primary: #2d3436;
+//imports
+@import 'reset';
+@import 'header';
+
+body{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
 
 .container{
   max-width: map-get($container-max-widths, "xl");
