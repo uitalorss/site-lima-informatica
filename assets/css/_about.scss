@@ -1,8 +1,9 @@
-.content-about{
+#id{
   padding: $gutter-section;
-  p{
-    color: $text-font-light;
-  }
+}
+
+#text-about{
+  color: $text-font-light;
 }
 
 .topics{
