@@ -1,5 +1,6 @@
 //Variáveis
 $text-font-primary: #2d3436;
+$gutter-section: 20px 0;
 $container-max-widths: (
   sm: 540px,
   md: 720px,
@@ -8,13 +9,41 @@ $container-max-widths: (
   xxl: 1320px
 );
 
+@mixin title-section {
+  font-size: 3em;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px;
+}
+
 //imports
 @import 'reset';
 @import 'header';
+@import 'intro';
+@import 'about';
 
 body{
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
+}
+
+h1{
+  font-size: 4em;
+  font-weight: bold;
+}
+
+h2{
+  @include title-section();
+}
+
+h3{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.25em;
+}
+
+p{
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 .container{
