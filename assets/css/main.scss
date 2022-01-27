@@ -1,7 +1,10 @@
 //Variáveis
 $text-font-primary: #2d3436;
 $text-font-light: #b2bec3;
+$text-title-primary: #f5f6fa;
+$text-title-secondary: #dcdde1;
 $bg-dark: #2d3436;
+$bg-secondary: #2f3640;
 
 $gutter-section: 50px 0;
 $gutter-inner-section: 20px 0;
@@ -25,6 +28,7 @@ $container-max-widths: (
 @import 'header';
 @import 'intro';
 @import 'about';
+@import 'services';
 
 body{
   font-family: 'Poppins', sans-serif;
@@ -47,6 +51,10 @@ h3{
 h4{
   font-family: 'Orbitron', sans-serif;
   font-size: 2em;
+}
+
+.title-section{
+  color: $text-title-primary;
 }
 
 p{

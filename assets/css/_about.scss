@@ -1,3 +1,7 @@
+#about{
+  background: $bg-secondary;
+}
+
 .content-about{
   padding: $gutter-section;
 }
@@ -12,7 +16,7 @@
   flex-direction: column;
   .topics-about{
     .title-topic{
-      color: #c0392b;
+      color: $text-title-secondary;
       margin-bottom: 10px;
     }
     margin: $gutter-inner-section;
