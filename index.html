@@ -15,52 +15,59 @@
 </head>
 
 <body>
-  <header class="container">
-    <img src="assets/img/logo-lima.jpg" alt="logo-da-empresa">
-    <nav class="menu">
-      <ul>
-        <li>
-          <a href="#about">Quem Somos</a>
-        </li>
-        <li>
-          <a href="#services">Serviços</a>
-        </li>
-        <li>
-          <a href="#clients">Clientes</a>
-        </li>
-        <li>
-          <a href="#contact">Contato</a>
-        </li>
-      </ul>
-    </nav>
+  <header id="header">
+    <div class="container content-header">
+      <img src="assets/img/logo-lima.jpg" alt="logo-da-empresa">
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="#about">Quem Somos</a>
+          </li>
+          <li>
+            <a href="#services">Serviços</a>
+          </li>
+          <li>
+            <a href="#clients">Clientes</a>
+          </li>
+          <li>
+            <a href="#contact">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
     <section id="intro">
       <div class="container content-intro">
-        <h1>Lima Informática</h1>
+        <div class="text-intro">
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos dolore saepe iste ipsum, veniam in nihil illum consequatur</p>
+        </div>
+        <img class="img-intro" src="assets/img/animated-intro.svg" alt="">
+        <!--<a class="attribute" href="https://storyset.com/technology">Technology illustrations by Storyset</a>-->
       </div>
     </section>
     <section id="about">
-      <div class="container">
-        <h2 class="title-section">Quem Somos</h2>
+      <div class="container content-about">
+        <h3 class="title-section">Quem Somos</h3>
         <p id="text-about">Para se destacar em qualquer área nos dias atuais, seja para ter o melhor desempenho comercial ou uma prestação de serviço de excelência, é essencial poder contar com o melhor que a tecnologia pode oferecer. Com isso, há 21 anos a Lima Informática trabalha focada em prover soluções de Tecnologia, suporte técnico, manutenção de computadores e vendas de aparelhos e periféricos em geral. Buscando sempre potencializar o serviço dos seus clientes.</p>
         <div class="topics">
           <div class="topics-about">
-            <h3 class="title-topic">Missão</h3>
+            <h4 class="title-topic">Missão</h4>
             <p>
               Desenvolver atividade no âmbito da disponibilização e gestão das infra estruturas de rede, da gestão dos equipamentos e das aplicações informatizadas, adequando os recursos à evolução tecnológica.
             </p>
           </div>
           <div class="topics-about">
-            <h3 class="title-topic">Visão</h3>
+            <h4 class="title-topic">Visão</h4>
             <p>
               Excelência de todos os serviços prestados à seus clientes, apostando na inovação, no dinamismo dos seus colaboradores e da organização e na atenção aos sinais de mudança para, a todos os momentos, de forma concertada com os parceiros, oferecer uma infraestrutura de informática e de comunicações estável, segura e sempre disponível.
             </p>
           </div>
           <div class="topics-about">
-            <h3 class="title-topic">
+            <h4 class="title-topic">
               Valores
-            </h3>
+            </h4>
             <ul>
               <li>Lorem ipsum dolor.</li>
               <li>Lorem ipsum dolor.</li>
@@ -74,7 +81,7 @@
     </section>
     <section id="services">
       <div class="container content-services">
-        <h2 class="title-section">Serviços</h2>
+        <h3 class="title-section">Serviços</h3>
 
       </div>
     </section>
@@ -82,6 +89,8 @@
     <section id="contact"></section>
   </main>
   <footer></footer>
+
+  <script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () { window.setTimeout(document.querySelector('svg').classList.add('animated'), 1000); })</script>
 </body>
 
 </html>

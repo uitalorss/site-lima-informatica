@@ -1,3 +1,17 @@
+#intro{
+  background-color: $bg-dark;
+}
+
 .content-intro{
   padding: $gutter-section;
+  display: flex;
+  .text-intro{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+}
+
+.img-intro{
+  width: 100%;
 }

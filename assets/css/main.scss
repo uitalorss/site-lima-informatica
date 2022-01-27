@@ -1,6 +1,7 @@
 //Variáveis
 $text-font-primary: #2d3436;
-$text-font-light: #636e72;
+$text-font-light: #b2bec3;
+$bg-dark: #2d3436;
 
 $gutter-section: 50px 0;
 $gutter-inner-section: 20px 0;
@@ -36,16 +37,21 @@ h1{
 }
 
 h2{
-  @include title-section();
+  font-size: 3em
 }
 
 h3{
+  @include title-section();
+}
+
+h4{
   font-family: 'Orbitron', sans-serif;
-  font-size: 2.25em;
+  font-size: 2em;
 }
 
 p{
   font-size: 1em;
+  color: $text-font-light;
   line-height: 1.5em;
 }
 
