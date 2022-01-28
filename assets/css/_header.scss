@@ -20,5 +20,21 @@
     text-decoration: none;
     padding: 1em 0;
     color: $text-font-light;
+    position: relative;
+
+    &:after{
+      content: "";
+      display: block;
+      height: 2px;
+      width: 0;
+      background: $text-font-light;
+      margin-top: 4px;
+      transition: 0.3s;
+
+    }
+    &:hover:after{
+      width: 90%;
+      position: absolute;
+    }
   }
 }
