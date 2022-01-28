@@ -1,7 +1,24 @@
-#about{
+#clients{
   background: $bg-secondary;
 }
 
 .content-clients{
   padding: $gutter-section;
+}
+
+.list-clients{
+  padding: $gutter-inner-section;
+  display: flex;
+  .card-clients{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em 0;
+    width: 60%;
+    align-items: center;
+    .client-item{
+      img{
+        width: 80%;
+      }
+    }
+  }
 }
