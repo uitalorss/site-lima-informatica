@@ -2,9 +2,10 @@
 $text-font-primary: #2d3436;
 $text-font-light: #b2bec3;
 $text-title-primary: #f5f6fa;
-$text-title-secondary: #dcdde1;
+$text-title-secondary: #c0392b;
 $bg-dark: #1e272e;
-$bg-secondary: #2d3436;
+$bg-light: #dfe6e9;
+$bg-secondary: #ECF0F1;
 
 $gutter-section: 50px 0;
 $gutter-inner-section: 20px 0;
@@ -29,6 +30,7 @@ $container-max-widths: (
 @import 'intro';
 @import 'about';
 @import 'services';
+@import 'clients';
 
 body{
   font-family: 'Poppins', sans-serif;
@@ -59,7 +61,7 @@ h4{
 
 p{
   font-size: 1em;
-  color: $text-font-light;
+  color: $text-font-primary;
   line-height: 1.5em;
 }
 

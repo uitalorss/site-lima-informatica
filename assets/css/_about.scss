@@ -7,7 +7,9 @@
 }
 
 #text-about{
-  color: $text-font-light;
+  color: $text-font-primary;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .topics{
@@ -22,10 +24,10 @@
     margin: $gutter-inner-section;
     p{
       width: 50%;
-      color: $text-font-light;
+      color: $text-font-primary;
     }
     li{
-      color: $text-font-light;
+      color: $text-font-primary;
       list-style-type: square;
       margin: 10px 0 10px 25px;
     }
