@@ -1,0 +1,19 @@
+#contact{
+  background: $bg-light;
+}
+
+.content-contact{
+  padding: $gutter-section;
+  display: grid;
+  justify-content: center;
+  gap: 3em;
+  a{
+    padding: 20px 50px;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+    background: #25d366;
+    color: #ffffff;
+    font-size: 1.25em;
+  }
+}
