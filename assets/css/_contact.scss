@@ -6,15 +6,17 @@
   padding: $gutter-section;
   display: grid;
   justify-content: center;
-  gap: 3em;
-  a{
+  .btn-contato{
+    justify-self: center;
     margin: 30px 0;
-    padding: 20px 50px;
-    border: none;
-    text-decoration: none;
-    border-radius: 50px;
-    background: #25d366;
-    color: #ffffff;
-    font-size: 1.25em;
+    a{
+      margin: 0 auto;
+      padding: 15px 25px;
+      background: #25d366;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 1.25em;
+    }
   }
 }
