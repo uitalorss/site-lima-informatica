@@ -10,6 +10,30 @@ export function initScrollReveal(){
     delay: 300,
     reset: false
   });
+
+  sr.reveal(".toDownx2", {
+    origin: "top",
+    distance: "50px",
+    duration: 2000,
+    delay: 350,
+    reset: false
+  });
+
+  sr.reveal(".toDownx3", {
+    origin: "top",
+    distance: "50px",
+    duration: 2000,
+    delay: 400,
+    reset: false
+  });
+
+  sr.reveal(".toDownx4", {
+    origin: "top",
+    distance: "50px",
+    duration: 2000,
+    delay: 450,
+    reset: false
+  });
   
   sr.reveal(".toLeft", {
     origin: "left",
