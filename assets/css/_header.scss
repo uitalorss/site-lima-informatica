@@ -26,16 +26,18 @@
     padding: 1em 0;
     color: $text-font-light;
     position: relative;
-
+    transition: .4s;
+    &:hover{
+      color: #f5f6fa;
+    }
     &:after{
       content: "";
       display: block;
       height: 2px;
       width: 0;
-      background: $text-font-light;
+      background: #f5f6fa;
       margin-top: 5px;
       transition: 0.4s;
-
     }
     &:hover:after{
       width: 90%;

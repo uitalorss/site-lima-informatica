@@ -7,6 +7,7 @@ sr.reveal(".toDown", {
   distance: "50px",
   duration: 2000,
   delay: 300,
+  reset: false
 });
 
 sr.reveal(".toLeft", {
@@ -14,6 +15,7 @@ sr.reveal(".toLeft", {
   distance: "50px",
   duration: 2000,
   delay: 400,
+  reset: false
 });
 
 sr.reveal(".toRight", {
@@ -21,4 +23,5 @@ sr.reveal(".toRight", {
   distance: "50px",
   duration: 2000,
   delay: 500,
+  reset: false
 });
