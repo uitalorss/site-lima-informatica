@@ -4,6 +4,10 @@
 
 .content-contact{
   padding: $gutter-section;
+  h4{
+    font-family: 'Poppins', sans-serif;
+    color: $text-font-primary;
+  }
   .items-contact{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

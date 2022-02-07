@@ -9,12 +9,14 @@ $bg-secondary: #ECF0F1;
 
 $gutter-section: 50px 0;
 $gutter-inner-section: 20px 0;
+
+
+//breaking points
 $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1320px
 );
 
 @mixin title-section {
@@ -72,7 +74,14 @@ p{
   line-height: 1.5em;
 }
 
+
 .container{
   max-width: map-get($container-max-widths, "xl");
   margin: 0 auto;
+  @media only screen and (min-width: 960px) and (max-width: 1139px){
+    max-width: map-get($container-max-widths, "lg");
+  }
+  @media only screen and (min-width: 720px) and (max-width: 959px){
+    max-width: map-get($container-max-widths, "md");
+  }
 }
