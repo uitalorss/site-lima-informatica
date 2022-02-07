@@ -29,10 +29,6 @@
       line-height: 1.5em;
     }
   }
-  .img-intro{
-    width: 80%;
-  }
-
   @media only screen and (max-width: 959px){
     .text-intro{
       gap: 1em;
@@ -58,4 +54,8 @@
     }
   }
 }
+
+  .img-intro{
+    width: 50%;
+  }
 
