@@ -4,7 +4,7 @@
 
 .content-contact{
   padding: $gutter-section;
-  display: grid;
+
   justify-content: center;
   .btn-contato{
     justify-self: center;
@@ -19,4 +19,29 @@
       font-size: 1.25em;
     }
   }
+}
+
+.items-contact{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+
+  .type-contact{
+    display: grid;
+    gap: 1em;
+    .items-contact-data{
+      display: flex;
+      align-items: center;
+      gap: .5em;
+      img{
+        width: 10%;
+      }
+    }
+    .social-networks{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0 2em;
+    }
+  }
+
+
 }
