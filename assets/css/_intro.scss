@@ -31,6 +31,12 @@
   }
   img{
     width: 70vh;
+    @media only screen and (max-width: 1139px){
+      width: 45vh;
+    }
+    @media only screen and (max-width: 959px){
+      width: 40vh;
+    }
     @media only screen and (max-width: 719px){
       width: 50%;
     }
