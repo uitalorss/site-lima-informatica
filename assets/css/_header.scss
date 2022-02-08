@@ -54,9 +54,10 @@
         width: 0;
         transition: 0s;
       }
-    }&:hover::after{
-      width: 0;
-      position: static;
+      &:hover::after{
+        width: 0;
+        position: static;
+      }
     }
   }
 
