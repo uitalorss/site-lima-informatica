@@ -42,5 +42,19 @@
       }
     }
   }
+
+  @media only screen and (max-width: 959px){
+    .items-contact{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2em 1em
+    }
+  }
+
+  @media only screen and (max-width: 719px){
+    .items-contact{
+      grid-template-columns: 1fr;
+      gap: 2em;
+    }
+  }
 }
 
