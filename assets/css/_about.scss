@@ -40,5 +40,13 @@
         text-align: right;
       }
     }
+    @media only screen and (max-width: 959px){
+      p{
+        width: 100%;
+      }
+    }
+  }
+  @media only screen and (max-width: 539px){
+      display: none;
   }
 }
