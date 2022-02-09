@@ -14,5 +14,18 @@ footer{
     img{
       width: 100px;
     }
+    @media only screen and (max-width: 539px){
+      grid-template-columns: 1fr;
+      gap: 1em;
+      p{
+        text-align: center;
+        font-size: 0.875em;
+      }
+      img{
+        width: 15%;
+        margin: 0 auto;
+      }
+    }
   }
+
 }
