@@ -17,13 +17,15 @@
 }
 
 .nav{
-
   .menu{
     display: flex;
     gap: 2em;
   }
   li{
     list-style: none;
+    @media only screen and (max-width: 539px){
+      margin-left: 1em;
+    }
   }
   a{
     display: block;
