@@ -48,5 +48,8 @@
 
   @media only screen and (max-width: 539px){
     grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
   }
 }

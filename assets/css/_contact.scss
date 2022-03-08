@@ -16,6 +16,7 @@
     .type-contact{
       display: grid;
       gap: 1em;
+      padding: 15px 0;
       .items-contact-data{
         display: flex;
         align-items: center;
@@ -36,6 +37,7 @@
         border-radius: 25px;
         text-decoration: none;
         color: #ffffff;
+        display: inline-block;
         img{
           margin-bottom: -7px;
         }
